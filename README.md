@@ -81,7 +81,11 @@ Test router 2:
  
 ![Screenshot 2024-06-06 152105](https://github.com/mmedinabet/ACL-lab-/assets/142737434/b3aaf035-ca24-4dd6-abbc-fd0e0fedd7f0)
 
+The Laptop should ping the server now:
+
 ![Screenshot 2024-06-06 152240](https://github.com/mmedinabet/ACL-lab-/assets/142737434/5a41ba3e-f1d3-4c82-be0c-10d17a8156cd)
+
+The server should ping the laptop now: 
 
 ![Screenshot 2024-06-06 152623](https://github.com/mmedinabet/ACL-lab-/assets/142737434/f73a1026-ee43-4b64-8246-8714c6e6dea0)
 
@@ -89,17 +93,19 @@ Test router 2:
    - Deny PC1 from accessing Server1.
    - Apply the ACL on the Gigabit Ethernet 0/2 interface.
    - Include the "permit any" statement to allow other traffic.
-   - 
+     
 ![Screenshot 2024-06-06 153244](https://github.com/mmedinabet/ACL-lab-/assets/142737434/cdff13dd-f7c9-46cd-87fe-447e7f415101)
 
 
 3. Test the New ACL:
    - Use ping to check connectivity from Laptop1 to Server1 (ping should succeed).
-   - Use ping to check connectivity from PC1 to Server1 (ping should fail).
    
 ![Screenshot 2024-06-06 153411](https://github.com/mmedinabet/ACL-lab-/assets/142737434/a3fd8a82-73f7-4f77-a787-8d86c607f087)
+  
+  - Use ping to check connectivity from PC1 to Server1 (ping should fail).
+    
+![Screenshot 2024-06-06 4 59 32 PM](https://github.com/mmedinabet/ACL-lab-/assets/142737434/0721ad45-e505-4f6c-a889-ddae3e87b807)
 
-![Screenshot 2024-06-06 153411](https://github.com/mmedinabet/ACL-lab-/assets/142737434/7281c4b6-6d05-4f7c-93e1-285d85c6a26c)
 
 <h1>Conclusion</h1>
 This lab demonstrated the process of configuring and testing standard ACLs to manage network traffic. By successfully implementing ACLs, we restricted specific devices from accessing network resources while allowing other communications to proceed. The exercises reinforced the importance of ACLs in enhancing network security and controlling access within a trusted network environment. By systematically applying, testing, and modifying ACLs, we gained practical experience in network traffic management and security configuration.
