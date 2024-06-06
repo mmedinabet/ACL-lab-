@@ -60,18 +60,17 @@ Test router 2:
 
 ![Screenshot 2024-06-06 143435](https://github.com/mmedinabet/ACL-lab-/assets/142737434/5f36f0fc-a1b3-4321-b8ad-38aa6b7e36b7)
 
-Task 2: In the real-world, you typically ONLY allow traffic and block everything else.  However, since this is a lab 
-and you are learning ACLs, include the “permit any” statement to allow the other communications since we are creating a “trusted” network here hosts that are on the network are assumed to be 
-allowednow test the laptop by using ping to check connectivity with server, whcih it comes back 
-
-![Screenshot 2024-06-06 143654](https://github.com/mmedinabet/ACL-lab-/assets/142737434/8b3b3694-7a69-4d5f-b438-3d1615809855)
 
 2. Test the ACL:
    - Use ping to test connectivity from Laptop1 to Server1 (ping should fail).
+  
+![Screenshot 2024-06-06 143654](https://github.com/mmedinabet/ACL-lab-/assets/142737434/8b3b3694-7a69-4d5f-b438-3d1615809855)
+
    - Use ping to test connectivity from PC1 to Server1 (ping should succeed).
 
 ![Screenshot 2024-06-06 144731](https://github.com/mmedinabet/ACL-lab-/assets/142737434/8453818d-8bf2-48ad-a1db-431ee6549ead)
 
+   - Use ping to test connectivity from Server to both Laptop (ping should fail) and PC1 (ping should suceed) 
 ![Screenshot 2024-06-06 145047](https://github.com/mmedinabet/ACL-lab-/assets/142737434/62ee8152-f2d8-4deb-9dd2-c43bdf1c5499)
 
  
