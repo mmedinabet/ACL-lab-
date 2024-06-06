@@ -41,10 +41,7 @@ Lets test the server connectevity with both laptop and PC:
 
 ![Screenshot 2024-06-06 140959](https://github.com/mmedinabet/ACL-lab-/assets/142737434/bfdd217f-bafc-4464-a34e-f20bf160e88d)
 
-TASK 2: 
-1. Double-click each computer.
-2. Open the Command Prompt.
-3. Use the ping utility to check connectivity between each of the computers from each of the routers.
+TASK 2: Use the ping utility to check connectivity between each of the computers from each of the routers.
 
 Test router 1 : 
 
