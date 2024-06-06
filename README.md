@@ -55,6 +55,7 @@ Test router 2:
 ![Screenshot 2024-06-06 142440](https://github.com/mmedinabet/ACL-lab-/assets/142737434/4ebd0b1e-0c62-469c-b12d-aed7bf78c2f1)
 
 <h1> Setup ACLs</h1>
+
 1. Create a Standard ACL:
    - Deny Laptop1 from accessing Server1.
    - Apply the ACL on the Gigabit Ethernet 0/2 interface in the inbound direction.
